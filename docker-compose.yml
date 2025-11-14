@@ -1,0 +1,9 @@
+services:
+  spring-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: adityagiri1/devops-prac-spring1:v2
+    container_name: devops-prac-spring1
+    ports:
+      - "8080:8080"
