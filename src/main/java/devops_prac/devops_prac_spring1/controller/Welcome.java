@@ -23,4 +23,9 @@ public class Welcome {
                 .status(HttpStatus.OK)
                 .body("Your name is: " + name + " with the blessings of Shri Radha Rani!");
     }
+
+    @GetMapping("/bhajan")
+    public ResponseEntity<String> bhajan(){
+        return new ResponseEntity<>("Radha, Radha, Radha", HttpStatus.OK);
+    }
 }
