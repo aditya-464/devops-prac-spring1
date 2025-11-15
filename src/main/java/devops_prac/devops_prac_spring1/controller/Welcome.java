@@ -26,6 +26,6 @@ public class Welcome {
 
     @GetMapping("/bhajan")
     public ResponseEntity<String> bhajan(){
-        return new ResponseEntity<>("Radha, Radha, Radha", HttpStatus.OK);
+        return new ResponseEntity<>("Radha, Radha, Radha!", HttpStatus.OK);
     }
 }
